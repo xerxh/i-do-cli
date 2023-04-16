@@ -1,11 +1,11 @@
-# `utils`
+# `@my-cli-dev/log`
 
 > TODO: description
 
 ## Usage
 
 ```
-const utils = require('utils');
+const log = require('@my-cli-dev/log');
 
 // TODO: DEMONSTRATE API
 ```

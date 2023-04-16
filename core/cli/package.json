@@ -1,5 +1,5 @@
 {
-  "name": "@my-test-cli-dev/core",
+  "name": "@my-cli-dev/core",
   "version": "1.0.0",
   "description": "自定义脚手架核心库",
   "author": "xerxh <xhxer512@163.com>",
@@ -23,8 +23,12 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@my-test-cli-dev/utils": "file:../../utils/utils",
+    "@my-cli-dev/log": "file:../../utils/log",
+    "@my-cli-dev/utils": "file:../../utils/utils",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
     "import-local": "^3.1.0",
-    "npmlog": "^7.0.1"
+    "npmlog": "^7.0.1",
+    "semver": "^7.4.0"
   }
 }
